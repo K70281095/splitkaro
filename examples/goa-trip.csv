@@ -1,0 +1,6 @@
+date,description,amount,paid_by,split,split_kind,category,currency,note
+2026-11-01,Hotel (2 nights),9000,Asha,Asha:2;Ravi:1;Meera:1,shares,stay,INR,Asha and her partner share a room
+2026-11-01,Dinner at the shack,2400,Ravi,,equal,food,INR,
+2026-11-02,Scooter rental,1500,Asha:1000;Meera:500,Asha;Meera,equal,travel,INR,Ravi took the bus
+2026-11-02,Parasailing,30,Meera,,equal,fun,USD,Paid by card abroad
+2026-11-03,Groceries,1260,Ravi,Asha:500;Ravi:460;Meera:300,exact,food,INR,

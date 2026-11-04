@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest a way splitkaro could handle how your group splits money.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: situation
+    attributes:
+      label: The real-life situation
+      description: e.g. "Our flat splits rent by room size, but bills equally."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help
+      description: What could it look like on the command line?

@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Your own group files can hold real names and amounts; keep them out of git.
+splitkaro.json
+*.splitkaro.json
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

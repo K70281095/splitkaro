@@ -1,0 +1,27 @@
+name: Bug report
+description: Something splitkaro does is wrong or surprising.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please use made-up names, UPI IDs and amounts.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you run, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Commands to reproduce
+      render: bash
+  - type: input
+    id: version
+    attributes:
+      label: splitkaro and Python version
+      placeholder: "splitkaro 0.1.0, Python 3.12, Windows 11"
+    validations:
+      required: true
